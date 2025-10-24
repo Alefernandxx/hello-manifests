@@ -15,6 +15,6 @@ spec:
       containers:
       - name: hello-app
         # SUBSTITUA AQUI com seu usuário do Docker Hub
-        image: seu-usuario-dockerhub/hello-app:initial
+        image: alefernandxx/hello-app:initial
         ports:
         - containerPort: 80
